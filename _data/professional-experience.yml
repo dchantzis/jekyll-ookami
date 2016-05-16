@@ -1,0 +1,148 @@
+- company: "Freelance"
+  company-url: "http://www.dimitrioschantzis.com"
+  location: "Brighton, UK"
+  duration: "10/2015 - current"
+  role: "Web Developer"
+  description: ""
+  additional-info: ""
+  project-highlights: ""
+  technologies: [ "PHP",  "SQL",  "MySQL",  "HTML5",  "CSS3",  "javaScript", "AJAX", "jQuery", "Drupal7", "Wordpress", "XML", "JSON", "Twig",  "Git",  "Markdown", "Jekyll", "YAML", "Adobe Photoshop" ]
+  work-section: "projects-personal-freelance"
+
+- company: "Mosaic Digital"
+  company-url: "http://www.emosaic.co.uk/"
+  location: "Brighton, UK"
+  duration: "06/2015 - 11/2015"
+  role: "Senior Web Developer"
+  description:
+    - "Organizing and planning the development of new projects, through guidelines to minimize repetition of code."
+    - "Back-End development of new projects."
+    - "Managing the projects databases."
+    - "Responsible for testing and launching projects."
+    - "Development and staging server setup."
+    - "Maintaining and expanding the Zend-based agency CMS and creating re-usable modules."
+    - "Part of the core agency team that produced the new agency CMS, based on Drupal7."
+    - "Creating and expanding Drupal7 modules."
+    - "Responsible for maintaining the full back catalog of the agencies projects, as well as rebuilding and expanding functionalities."
+    - "Writing documentations and guides."
+  additional-info: ""
+  project-highlights: "Our clients include National Numeracy, NHS (Sussex Partnership), Virtual Gurus, TMA World, London Business School, Close Brothers."
+  technologies: [ "PHP", "Zend", "SQL", "MySQL", "HTML5", "CSS3", "javaScript", "AJAX", "jQuery", "Drupal7", "XML", "JSON", "Twig", "Git", "Markdown", "Idiorm & Paris" ]
+  work-section: "projects-mosaic-digital"
+
+- company: "Mosaic Digital"
+  company-url: "http://www.emosaic.co.uk/"
+  location: "Brighton, UK"
+  duration: "01/2013 - 06/2015"
+  role: "Back-end Web Developer"
+  description:
+    - "Part of a talented multidisciplinary team, working primarily as a Back-end Developer and producing web applications."
+    - "Maintaining and expanding the Zend-based agency CMS and creating re-usable modules"
+    - "Responsible for maintaining the full back catalog of the agencies projects, as well as rebuilding and expanding functionalities."
+    - "Managing the projects databases."
+    - "Responsible for testing and launching projects."
+    - "Writing documentations and guides."
+  additional-info: "We worked in a variety of different bespoke websites, often in parallel."
+  project-highlights: "Some of our clients include Brightwave, National Numeracy, British Heart Foundation, Close Brothers, Winterflood, London Business School, GSM Travel, Capital Region USA Scenic Spyways, Tessello, Tysers, Reed & Mackay"
+  technologies: [ "PHP", "Zend", "SQL", "MySQL", "HTML5", "CSS3", "javaScript", "AJAX", "jQuery", "Drupal7", "JSON", "Twig", "Git", "Markdown", "Idiorm & Paris" ]
+  work-section: "projects-mosaic-digital"
+
+- company: "Tera Media"
+  company-url: "http://www.tera-media.net"
+  location: "London, UK & Athens, Greece"
+  duration: "02/2011 - 06/2012"
+  role: "Back-end and Front-end Web Developer"
+  description:
+    - "Planning, designing and developing the back-end and front-end structure and code for new projects."
+  additional-info: "My responsibilities also included maintaining the agency's old projects."
+  project-highlights: ""
+  technologies: [ "PHP", "SQL", "MySQL", "(X)HTML", "CSS", "javaScript", "AJAX", "mooTools", "jQuery", "JSON", "XML", "Drupal6" ]
+  work-section: "projects-tera-media"
+
+- company: "Hellenic Army Forces"
+  company-url: ""
+  location: "Greece"
+  duration: "05/2011 - 07/2012"
+  role: "Director of the I.T. Stuff office at the 88th Brigade of Greece | Second Lieutenant (OF-1) of the 'Research and Informatics' Military Corps"
+  description:
+    - "I lead a small team of IT soldiers, responsible for maintaining the IT infrastructure of all the Units and Army Camps under the Brigade."
+    - "Additional responsibilities included the production and editing of daily, weekly and monthly reports for Secret, Top Secret and Special Handling Top Secret documents and reports."
+    - "I was also training new personnel in military technologies."
+    - "Every calendar month for four 24-hour shifts, I served as the Communications Officer of the Brigade, overlooking everything that was concerning the area of the Brigade and reporting to the Brigadier and the Colonels of the Staff Offices."
+  additional-info: "Instead of serving as a soldier for the mandatory nine months of national army service, due to my education and professional experience in IT, I was selected and trained as an Officer and served as a director of a Brigade Stuff office."
+  project-highlights: "This allowed me to have some free time to continue working by distance as a Web Developer for Tera Media."
+  technologies: []
+  work-section:
+
+- company: "Tera Media"
+  company-url: "http://www.tera-media.net"
+  duration: "07/2009 - 10/2010"
+  location: "London, UK & Athens, Greece"
+  role: "Back-end and Front-end Web Developer"
+  description:
+    - "Planning, designing and developing the back-end and front-end structure and code for new projects."
+    - "My responsibilities also included maintaining the agency's old projects."
+  additional-info: "I started my first collaboration with Tera Media, three months before my studies at the MSc in Design and Digital Media, up until my graduation."
+  project-highlights: "Some of the projects that I was responsible for were tidbit.tv, LivingSpaces and syzy.gy"
+  technologies: [ "PHP", "SQL", "MySQL", "(X)HTML", "CSS", "javaScript", "AJAX", "mooTools", "jQuery", "JSON", "XML", "Drupal6" ]
+  work-section: "projects-mosaic-digital"
+
+- company: "Vodafone"
+  company-url: ""
+  location: "Thessaloniki, Greece"
+  duration: "09/2008 - 12/2008"
+  role: "Call center operator"
+  description:
+    - "I worked at the customer service section of the call center, specializing on contract connections."
+  additional-info: "This was one of the jobs that I had in order to raise funds for my MSc at the University of Edinburgh."
+  project-highlights: ""
+  technologies: []
+  work-section:
+
+- company: "Win.net Digital Education Center"
+  company-url: ""
+  location: "Thessaloniki, Greece"
+  duration: "09/2007 - 06/2008"
+  role: "Web Development Teacher"
+  description:
+    - "Worked as a Web Developer teacher on the basic and advanced practices that were used back in 2007."
+  additional-info: "This was one of the jobs that I had in order to raise funds for my MSc at the University of Edinburgh."
+  project-highlights: ""
+  technologies: [ "XHTML", "CSS", "Adobe Dreamweaver", "Adobe Flash", "MS FrontPage" ]
+  work-section:
+
+- company: "ASANA / ATTACK"
+  company-url: ""
+  location: "Thessaloniki, Greece"
+  duration: "05/2007 - 06/2008"
+  role: "Call center operator"
+  description:
+    - "During my studies at the BSc in Computer Sciences, I worked as a call center operator for telemarketing sales of books and videos."
+  additional-info: "This was one of jobs that I had in order to raise funds for my MSc at the University of Edinburgh."
+  project-highlights: ""
+  technologies: []
+  work-section:
+
+- company: "Thessaloniki Technological Educational Institute"
+  company-url: ""
+  location: "Thessaloniki, Greece"
+  duration: "04/2006 - 10/2006"
+  role: "Web Developer and Designer [BSc Internship]"
+  description:
+    - "For my six month internship I worked as a Back-End and Front-End Developer, as well as Web Designer, of a web application for the administration of proclamations to professors for the Department of Informatics."
+  additional-info: ""
+  project-highlights: ""
+  technologies: [ "JSP", "PostgreSQL", "JavaScript", "ΧHTML", "CSS", "XML" ]
+  work-section:
+
+- company: "Association of St. Dimitrios"
+  company-url: ""
+  location: "Thessaloniki, Greece"
+  duration: "10/2004 - 06/2005"
+  role: "ECDL Teacher [Volunteer]"
+  description:
+    - "During my studies for my BSc in Computer Sciences, I spent a year working as a Volunteer ECDL teacher for the MS Office Suite 2003, to gain experience and insight as a teacher."
+  additional-info: ""
+  project-highlights: ""
+  technologies: [ "Word", "Excel", "PowerPoint", "Access", "Outlook", "FrontPage" ]
+  work-section:

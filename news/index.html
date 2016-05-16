@@ -1,0 +1,68 @@
+---
+layout: posts
+title: News
+titleBefore:
+titleAfter:
+meta:
+summary:
+author: Dimitrios Chantzis
+image:
+keywords:
+sectionClass: news
+navigationSection: first
+includeInNavigation: false
+weight: 0
+sitemap:
+  lastMod: 2016-05-02
+  priority: 0.7
+  changeFreq: monthly
+  include: false
+posts-filter:
+---
+<h1 class="brand brand-highlight push zetta">News</h1>
+<section class="{{page.sectionClass}}" id="{{page.sectionClass}}">
+
+{% for post in paginator.posts %}
+  <article itemscope itemtype="http://schema.org/BlogPosting" class="push-0">
+    <h2 class="brand brand-highlight push-1-4 giga">
+      <a href="{{site.baseurl}}{{post.url}}">{{post.title | strip }}</a>
+    </h2>
+
+    <p class="page-tidbits milli push-0">
+      <time itemprop="datePublished" datetime="{{post.date | date: '%Y-%m-%d' }}"><em>{{ post.date | date: "%B %d, %Y" }}</em></time>
+        {% if post.tags.size >= 1 %}
+          / Tags:
+          {% for item in post.tags %}
+            {% capture post-tag-slug %}/tag/{{ item | slugify }}/{% endcapture %}
+            {% assign tag-info = site.tags | where:"url",post-tag-slug %}
+            {% assign tag-info = tag-info | first %}
+            <a href="{{site.baseurl}}{{tag-info.url}}">{{tag-info.title}}</a>
+            {% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+        {% endif %}
+    </p>
+    {% include posts-time-to-read.html %}
+
+    {% if post.summary %}
+      <p class="push-0 milli">{{ post.summary }}</p>
+    {% else %}
+      {{ content | truncatewords: 150 }}
+    {% endif %}
+
+    <div class="pad-t-1-4 milli">
+      <a href="{{site.baseurl}}{{post.url}}" class="anchor">Read more</a>
+    </div>
+
+  </article>
+
+  <div class="hr-container island-2">
+    <div class="island-1-2">
+      <hr class="pad-b-1-4">
+    </div>
+  </div>
+
+{% endfor %}
+
+{% include pagination/default-post-pagination.html %}
+
+</section>

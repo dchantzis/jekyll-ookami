@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.titleBefore %}{{page.titleBefore}} · {% endif %}{% if page.title %} {{page.title}} · {% endif %}Dimitrios Chantzis{% if page.titleAfter %} · {{page.titleAfter}} {% endif %}</title>
+
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="description" content="{{ page.meta }}">
+  <meta name="author" content="{{ page.author }}">
+  <meta name="keywords" content="{% for keyword in site.data.meta-keywords %}{{keyword}}, {% endfor %}">
+
+  <meta property="og:title" content="{% if page.titleBefore %}{{page.titleBefore}} · {% endif %}{% if page.title %}{{page.title}} · {% endif %}{{site.website-title}}{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}">
+  <meta property="og:image" content="{{ page.image }}">
+  <meta property="og:description" content="{{ page.meta }}">
+
+  <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+  <!--
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+  -->
+
+  <!-- Google font: PT Sans (Normal 400, Normal 400 Italic, Bold 700) -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
+  <!-- Orbitron -->
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700' rel='stylesheet' type='text/css'>
+  <!-- Volkhov -->
+  <link href='https://fonts.googleapis.com/css?family=Volkhov:400,400italic,700' rel='stylesheet' type='text/css'>
+
+  <link rel="alternate" type="application/atom+xml" title="{{site.title}} | {{site.description}}" href="/atom.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{site.title}} | {{site.description}}" href="/feed.xml" />
+
+  <link href="favicon.ico" rel="shortcut icon">
+
+</head>
+
+<body>
+
+  {% include header.html %}
+
+  <div class="hr-container island-2">
+    <div class="island-1-2">
+      <hr class="pad-b-1-4">
+    </div>
+  </div>
+
+  <main class="push-0 gutter-2">
+
+    {{content}}
+
+  </main>
+
+<!--
+  <div class="parallax">
+    <div class="parallax__layer parallax__layer--back">
+    </div>
+    <div class="parallaxed-body parallax__layer parallax__layer--base">
+
+    </div>
+  </div>
+-->
+  <div class="hr-container island-2">
+    <div class="island-1-2">
+      <hr class="pad-b-1-4">
+    </div>
+  </div>
+  {% include footer.html %}
+
+  <script src="{{site.baseurl}}/assets/js/jquery-1.12.3.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.localScroll.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.scrollTo.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/jquery.waypoints.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/main.js"></script>
+  <script src="{{site.baseurl}}/assets/js/carousel.js"></script>
+  <script src="{{site.baseurl}}/assets/js/social-media-share.js"></script>
+
+  <script src="{{site.baseurl}}/assets/js/map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google-api-key }}&callback=initMap"></script>
+
+  {% if include-analytics-tracking %}
+    {% include analytics-tracking.html %}
+  {% endif %}
+
+</body>
+
+</html>

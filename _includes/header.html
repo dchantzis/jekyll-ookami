@@ -1,0 +1,61 @@
+<header class="push-0 text-center">
+
+  <div class="gutter-2">
+    <div class="logo-wrapper push">
+      <a href="{{site.baseurl}}/">
+        <div class="masthead logo-outline"></div>
+        <div class="masthead logo-outline-text"></div>
+        <div class="logo-border"></div>
+        <div class="masthead logo-heart"></div>
+      </a>
+      <!--<h1 class="masthead logo text-center text-upper ir">Dimitrios Chantzis</h1>-->
+    </div>
+
+    {% if '/' == page.url %}
+      <h1 class="push-0 tera">{{site.title}}</h1>
+    {% else %}
+      <h2 class="push-0 tera">{{site.title}}</h2>
+    {% endif %}
+
+    <h3 class="push-0 kilo normal">{{site.subtitle}}</h3>
+
+    <ul class="list-group--inline push-0 social-links pad-t-1-4">
+      {% for item in site.social %}
+        {% assign item.provider == item.provider | downcase %}
+        <li class="list-group__item mega">
+          {% case item.provider %}
+            {% when 'linkedin' %}
+               <a class="icon-link" href="http://www.linkedin.com/in/{{item.account-id}}" target="_blank" rel="external">
+                <i class="icon i-24 i-linkedin"></i>
+                <span class="icon-label hidden">{{item.provider}}</span>
+               </a>
+            {% when 'github' %}
+               <a class="icon-link" href="https://github.com/{{item.account-id}}" target="_blank" rel="external">
+                <i class="icon i-24 i-github"></i>
+                <span class="icon-label hidden">{{item.provider}}</span>
+              </a>
+          {% endcase %}
+        </li>
+      {% endfor %}
+      </ul>
+  </div>
+
+  <div class="nav-xs-s-m-wrapper">
+    <input type="checkbox" class="mobile-nav-toggle-box" name="mobile-nav-toggle" id="mobileNavToggle">
+    <label for="mobileNavToggle" class="mobile-nav-toggle-label">
+      <div class="nav-toggle-btn-bar top-bar"></div>
+      <div class="nav-toggle-btn-bar middle-bar"></div>
+      <div class="nav-toggle-btn-bar bottom-bar"></div>
+    </label>
+
+    <div class="nav-overlay" data-state="hidden">
+      <div class="nav-wrapper">
+        <h2 class="push-0 brand brand-highlight tera normal">Dimitrios Chantzis</h2>
+        {% include navigation.html navType = "xs-s-m" %}
+      </div>
+    </div>
+  </div>
+
+  {% include navigation.html navType = "l-xl" %}
+
+</header>

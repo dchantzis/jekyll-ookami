@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+{% if page.posts-filter %}
+  {% assign default-news-list = false %}
+  {% if 'tag' == page.posts-filter.type %}
+    {% assign site-posts = "" | split:"|" %}
+    {% for item in site.posts %}
+      {% if item.tags contains page.posts-filter.value %}
+        {% assign site-posts = site-posts | push: item %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% assign site-posts = site.posts | where:page.posts-filter.type,page.posts-filter.value %}
+  {% endif %}
+{% else %}
+  {% assign default-news-list = true %}
+  {% assign site-posts = paginator.posts %}
+{% endif %}
+
+<h1 class="brand brand-highlight push zetta">
+News{% if false == default-news-list %}: {{page.posts-filter.value | capitalize}}{% endif %}
+</h1>
+<section class="{{page.sectionClass}}" id="{{page.sectionClass}}">
+
+{% for post in site-posts %}
+  <article itemscope itemtype="http://schema.org/BlogPosting" class="push-0">
+    <h2 class="brand brand-highlight push-1-4 giga">
+      <a href="{{site.baseurl}}{{post.url}}">{{post.title | strip }}</a>
+    </h2>
+
+    <p class="page-tidbits milli push-0">
+      <time itemprop="datePublished" datetime="{{post.date | date: '%Y-%m-%d' }}"><em>{{ post.date | date: "%B %d, %Y" }}</em></time>
+        {% if post.tags.size >= 1 %}
+          / Tags:
+          {% for item in post.tags %}
+            {% capture post-tag-slug %}/tag/{{ item | slugify }}/{% endcapture %}
+            {% assign tag-info = site.tags | where:"url",post-tag-slug %}
+            {% assign tag-info = tag-info | first %}
+            <a href="{{site.baseurl}}{{tag-info.url}}">{{tag-info.title}}</a>
+            {% if forloop.last == false %}, {% endif %}
+          {% endfor %}
+        {% endif %}
+    </p>
+    {% include posts-time-to-read.html %}
+
+    {% if post.summary %}
+      <p class="push-0 milli">{{ post.summary }}</p>
+    {% else %}
+      {{ content | truncatewords: 150 }}
+    {% endif %}
+
+    <div class="pad-t-1-4 milli">
+      <a href="{{site.baseurl}}{{post.url}}" class="anchor">Read more</a>
+    </div>
+
+  </article>
+
+  {% if false == forloop.last or true == default-news-list %}
+  <div class="hr-container island-2">
+    <div class="island-1-2">
+      <hr class="pad-b-1-4">
+    </div>
+  </div>
+  {% endif %}
+
+{% endfor %}
+
+{% if default-news-list %}
+  {% include pagination/default-post-pagination.html %}
+{% endif %}
+
+</section>

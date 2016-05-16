@@ -1,0 +1,39 @@
+{% if site.related_posts.size >= 1 %}
+<div class="related-posts pad-t pad-b-2">
+  <h3 class="push-0 brand brand-highlight brand-color push-1-2 giga">More related stuff you might like</h3>
+
+  {% for post in site.related_posts limit: 3 %}
+      <article itemscope itemtype="http://schema.org/BlogPosting">
+        <h4 class="brand brand-highlight header-link push-0 mega">
+          <a href="{{site.baseurl}}{{post.url}}" title="{{post.title}}">{{post.title}}</a>
+        </h4>
+        <p class="page-tidbits milli push-0">
+          <time itemprop="datePublished" datetime="{{page.date | date: '%Y-%m-%d' }}"><em>{{ page.date | date: "%B %d, %Y" }}</em></time>
+        </p>
+        {% assign post = page %}
+        {% include posts-time-to-read.html %}
+
+        {% if post.summary %}
+          <p class="push-0 milli">{{ post.summary }}</p>
+        {% else %}
+          {{ content | truncatewords: 150 }}
+        {% endif %}
+
+        <div class="pad-t-1-4 milli">
+          <a href="{{site.baseurl}}{{post.url}}" class="anchor">Read more</a>
+        </div>
+
+      </article>
+
+      {% if false == forloop.last %}
+      <div class="hr-container island-2">
+        <div class="island-1-2">
+          <hr class="pad-b-1-4">
+        </div>
+      </div>
+      {% endif %}
+
+  {% endfor %}
+
+</div>
+{% endif %}

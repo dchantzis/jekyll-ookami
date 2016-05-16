@@ -1,0 +1,15 @@
+<section class="js-nav-section about gutter-1-2" id="about">
+
+  {% if '/about/' == page.url %}
+    <h1 class="brand brand-highlight push exa">About</h1>
+  {% else %}
+    <h2 class="brand brand-highlight push exa">About</h2>
+  {% endif %}
+
+  <ul class="list-group push-0 milli">
+    {% for line in site.data.about %}
+      <li class="{% if false == forloop.last %}push-1-4{% endif %}">{{line}}</li>
+    {% endfor %}
+  </ul>
+
+</section>

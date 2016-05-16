@@ -1,0 +1,24 @@
+<section class="js-nav-section work gutter-1-2" id="work">
+
+  {% if '/work/' == page.url %}
+    <h1 class="brand brand-highlight push exa">Work</h1>
+  {% else %}
+    <h2 class="brand brand-highlight push exa">Work</h2>
+  {% endif %}
+
+  {% assign projects = site.projects | sort:"order" %}
+  {% for project in projects %}
+    {% if 0 == project.order %}{% continue %}{% endif %}
+    {{ project.content }}
+
+    {% if false == forloop.last %}
+      <div class="hr-container island-2">
+        <div class="island-1-2">
+          <hr class="pad-b-1-4">
+        </div>
+      </div>
+    {% endif %}
+
+  {% endfor %}
+
+</section>

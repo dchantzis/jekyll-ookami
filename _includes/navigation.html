@@ -1,0 +1,117 @@
+{% assign site-pages = site.pages | sort:"weight"  %}
+{% assign navSection = "first" %}
+
+
+{% if "xs-s-m" == include.navType %}
+<nav class="nav nav-xs-s-m">
+
+  <ul class="list-group nav-main push-2 {% if site.single-page-layout or '/' == page.url %}single-page-layout{% endif %}">
+  {% for item in site-pages %}
+
+    {% if item.navigationSection contains navSection %}
+
+      {% if item.url contains "page2" %}{% continue %}{% endif %}
+      {% if false == item.includeInNavigation %}{% continue %}{% endif %}
+      <li class="list-group__item island-1-4 mega">
+
+        {% if false == site.single-page-layout or "/" != page.url %}
+          {% capture item-url %}{{site.baseurl}}{{item.url}}{% endcapture %}
+          {% assign site-layout = ""; %}
+        {% else %}
+          {% capture item-url %}#{{item.sectionClass | downcase}}{% endcapture %}
+          {% assign site-layout = "single-page-layout"; %}
+        {% endif %}
+
+        <a href="{{ item-url }}" class="gutter-1-2 {{site-layout}} {% if page.url == item.url %}current{% endif %}">{{ item.title }}</a>
+      </li>
+
+    {% endif %}
+
+    {% if forloop.last %}
+      <li class="list-group__item island-1-4 mega">
+        <a href="http://www.jamesdoe.com" class="gutter-1-2">illustration</a>
+      </li>
+    {% endif %}
+
+  {% endfor %}
+  </ul>
+
+  <ul class="list-group nav-sec">
+    <li class="list-group__item island-1-4 mega">
+      <a href="mailto:{{site.e-mail}}" class="gutter-1-2" target="_blank">E-Mail</a>
+    </li>
+    <li class="list-group__item island-1-4 mega">
+      <a href="tel:{{site.phone}}" class="gutter-1-2" target="_blank">Phone</a>
+    </li>
+    {% for item in site.social %}
+      {% assign item.provider == item.provider | downcase %}
+      <li class="list-group__item island-1-4 mega">
+        {% case item.provider %}
+          {% when 'linkedin' %}
+             <a href="http://www.linkedin.com/in/{{item.account-id}}" class="gutter-1-2" target="_blank" rel="external">{{item.provider}}</a>
+          {% when 'github' %}
+             <a href="https://github.com/{{item.account-id}}" class="gutter-1-2" target="_blank" rel="external">{{item.provider}}</a>
+        {% endcase %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</nav>
+{% endif %}
+
+{% if "l-xl" == include.navType %}
+<div class="nav-l-wrapper">
+  <nav class="nav nav-l">
+
+    <ul class="list-group nav-main push-0 {% if site.single-page-layout %}single-page-layout{% endif %}">
+      {% for item in site-pages %}
+        {% if item.navigationSection contains navSection %}
+
+          {% if item.url contains "page2" %}{% continue %}{% endif %}
+          {% if false == item.includeInNavigation %}{% continue %}{% endif %}
+          <li class="list-group__item island-1-4 kilo">
+            {% if false == site.single-page-layout or "/" != page.url %}
+              {% capture item-url %}{{site.baseurl}}{{item.url}}{% endcapture %}
+              {% assign site-layout = ""; %}
+            {% else %}
+              {% capture item-url %}#{{item.sectionClass | downcase}}{% endcapture %}
+              {% assign site-layout = "single-page-layout"; %}
+            {% endif %}
+            <a href="{{ item-url }}" class="{{site-layout}} {% if page.url == item.url %}current{% endif %}">{{ item.title }}</a>
+          </li>
+        {% endif %}
+
+        {% if forloop.last %}
+          <li class="list-group__item island-1-4 kilo">
+            <a href="http://www.jamesdoe.com" target="_blank" rel="external">Illustration</a>
+          </li>
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+
+    <ul class="list-group nav-sec push-0">
+      <li class="list-group__item island-1-4 kilo">
+        <a href="mailto:{{site.e-mail}}" target="_blank">E-Mail</a>
+      </li>
+      <li class="list-group__item island-1-4 kilo">
+        <a href="tel:{{site.phone}}" target="_blank">Phone</a>
+      </li>
+      {% for item in site.social %}
+        {% assign item.provider == item.provider | downcase %}
+        <li class="list-group__item island-1-4 kilo">
+          {% case item.provider %}
+            {% when 'linkedin' %}
+               <a href="http://www.linkedin.com/in/{{item.account-id}}" target="_blank" rel="external">{{item.provider}}</a>
+            {% when 'github' %}
+               <a href="https://github.com/{{item.account-id}}" target="_blank" rel="external">{{item.provider}}</a>
+          {% endcase %}
+        </li>
+      {% endfor %}
+    </ul>
+
+  </nav>
+</div>
+{% endif %}
+
+

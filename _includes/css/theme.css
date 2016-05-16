@@ -1,0 +1,385 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  color: rgba(68, 68, 68, 1);
+  /*background-color: #000;*/
+  /*border: 18px solid rgba(255, 255, 255, 0.8);*/
+}
+
+.brand {
+  font-family: 'Volkhov', serif;
+  /*font-family: 'Orbitron', sans-serif;*/
+  color: rgba(68, 68, 68, 1);
+}
+
+.brand-highlight {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.brand-color {
+  color: rgba(95, 163, 77, 1);
+}
+
+header {
+  padding-top: 6.8rem;
+}
+
+header,
+main {
+  margin: 0 auto;
+}
+
+.logo-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-border {
+  border: 2.4rem solid rgba(255,255,255,1);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.logo-outline {
+  position: absolute;
+  border-radius: 50%;
+  background: transparent url("../img/black-heart-outline-bare.png") no-repeat center center;
+  background-size: contain;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.logo-outline-text {
+  position: absolute;
+  border-radius: 50%;
+  background: transparent url("../img/black-heart-outline-text.png") no-repeat center center;
+  background-size: contain;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.logo-heart {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: transparent url("../img/black-heart.png") no-repeat center center;
+  background-size: contain;
+  z-index: 1;
+}
+
+.logo-wrapper,
+.logo-border,
+.logo-outline,
+.logo-outline-text,
+.logo-heart {
+  width: 12rem;
+  height: 12rem;
+}
+
+
+.logo {
+  width: 13rem;
+  height: 13rem;
+  background: transparent url("../img/logo-white.png") no-repeat center center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.logo-wrapper .logo-outline-text {
+  -ms-animation: heart-rotate 4000ms linear infinite;
+  -o-animation: heart-rotate 4000ms linear infinite;
+  -moz-animation: heart-rotate 4000ms linear infinite;
+  -webkit-animation: heart-rotate 4000ms linear infinite;
+  animation: heart-rotate 4000ms linear infinite;
+}
+
+.logo-wrapper .logo-heart {
+  -ms-animation: heart-pulse 500ms linear infinite alternate;
+  -o-animation: heart-pulse 500ms linear infinite alternate;
+  -moz-animation: heart-pulse 500ms linear infinite alternate;
+  -webkit-animation: heart-pulse 500ms linear infinite alternate;
+  animation: heart-pulse 500ms linear infinite alternate;
+}
+
+hr {
+  margin: 0 auto;
+  border: 0;
+  width: 5rem;
+  border-bottom: 3px dotted rgba(95, 163, 77, 1);
+}
+
+.about,
+.professional-profile,
+.education,
+.professional-experience,
+.languages,
+.interests,
+.skills,
+.work,
+.location,
+.sitemap,
+.news,
+.post,
+.error404 {
+  text-align: left;
+}
+
+.technologies span {
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.technologies ul {
+  display: inline-block;
+}
+
+.work .unit {
+  padding: 0;
+}
+
+.skills .unit {
+  padding: 0.3250rem 0;
+}
+
+.form-submitting {
+  opacity: 0.7;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+fieldset input,
+fieldset textarea {
+  display: block;
+  width: 100%;
+}
+
+fieldset .form-first-name-container {
+  padding-right: 0.1700rem;
+}
+
+fieldset .form-last-name-container {
+  padding-left: 0.1700rem;
+}
+
+fieldset .field-error::first-letter {
+  text-transform: capitalize;
+}
+
+fieldset.form-error {
+  color: rgba(204, 59, 59, 1);
+}
+
+fieldset.form-error input,
+fieldset.form-error textarea {
+  border: 1px solid rgba(204, 59, 59, 1);
+}
+
+.form-contact-notification {
+  background-color: #D1D1D1;
+}
+
+fieldset .field-error,
+.form-contact-notification.form-error {
+  background-color: rgba(204, 59, 59, 1);
+  color: #fff;
+  width: auto;
+  min-width: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.contact-info dt {
+  clear: left;
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.contact-info dd {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content p,
+.p-container p {
+  margin: 0;
+  padding-bottom: 0.3500rem;
+}
+
+.page-content img,
+.p-container img {
+  display: block;
+  width: 100%;
+}
+
+.page-content ul > li::before,
+.page-content ol > li::before,
+.p-container ul > li::before,
+.p-container ol > li::before  {
+  content: none;
+}
+
+.page-content hr,
+.p-container hr {
+  margin-top: 2.6000rem;
+  margin-bottom: 2.6000rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  width: 4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.page-content em,
+.p-container em {
+  color: rgba(192, 192, 192, 1);
+}
+
+.page-tidbits {
+  color: rgba(192, 192, 192, 1);
+}
+
+.social-btn {
+  padding-left: 0.1875rem;
+  padding-right: 0.1875rem;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+
+@media only screen and (min-width: 25em) {
+
+  header,
+  main {
+    width: 27rem;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  header,
+  main {
+    width: 34rem;
+  }
+
+  .logo-wrapper,
+  .logo-border,
+  .logo-outline,
+  .logo-outline-text,
+  .logo-heart {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .logo-border {
+    border: 2.9rem solid rgba(255,255,255,1);
+  }
+
+  main h1,
+  main h2,
+  main h3,
+  main h4 {
+    text-align: center;
+  }
+
+  .about,
+  .professional-profile,
+  .education,
+  .professional-experience,
+  .languages,
+  .skills,
+  .interests,
+  .work,
+  .location,
+  .sitemap,
+  .news,
+  .post,
+  .error404 {
+    text-align: center;
+  }
+
+  .work .unit {
+    padding-left: 0.3500rem;
+    padding-right: 0.3500rem;
+  }
+  .skills .unit {
+    padding: 0.3500rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  header,
+  main {
+    margin: 0 auto;
+    width: 40rem;
+  }
+
+  .work .unit {
+    padding-left: 0.3750rem;
+    padding-right: 0.3750rem;
+  }
+  .skills {
+    text-align: left;
+  }
+  .skills .unit {
+    padding: 0.3750rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+}
+
+
+/*
+  .parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-9px) scale(12);
+    transform: translateZ(-9px) scale(12);
+    display: block;
+    padding: 35rem;
+    opacity: 0.9;
+    background: transparent url(../img/a.jpg) no-repeat center center;
+  }
+
+*/

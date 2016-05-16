@@ -1,0 +1,28 @@
+<section class="js-nav-section resume gutter-1-2" id="resume">
+
+  {% if '/resume/' == page.url %}
+    <h1 class="brand brand-highlight push exa">Resume</h1>
+  {% else %}
+    <h2 class="brand brand-highlight push exa">Resume</h2>
+  {% endif %}
+
+  {% assign resume-sections = site.resume | sort:"order" %}
+  {% for item in resume-sections %}
+
+    <section class="{{item.sectionClass}}" id="{{item.sectionClass}}">
+      <h3 class="brand brand-highlight">{{item.title}}</h3>
+      {{ item.content | markdownify }}
+    </section>
+
+    {% if false == forloop.last %}
+      <div class="hr-container island-2">
+        <div class="island-1-2">
+          <hr class="pad-b-1-4">
+        </div>
+      </div>
+    {% endif %}
+
+  {% endfor %}
+
+</section>
+

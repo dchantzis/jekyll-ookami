@@ -1,0 +1,20 @@
+- name: "English"
+  certificates:
+    - title: "5 years living in the UK"
+      grade: ""
+      year: ""
+    - title: "TOEFL-iBT"
+      grade: "94/120"
+      year: "March 2009"
+    - title: "Cambridge Certificate of Proficiency in English (CPE)"
+      grade: "C"
+      year: "December 2001"
+    - title: "Cambridge First Certificate in English"
+      grade: "B"
+      year: "December 1997"
+
+- name: "Greek"
+  certificates:
+    - title: "Native Tongue"
+      grade: ""
+      year: ""

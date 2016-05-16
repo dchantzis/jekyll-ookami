@@ -1,0 +1,29 @@
+<section class="js-nav-section contact gutter-1-2" id="contact">
+
+  {% if '/contact/' == page.url %}
+    <h1 class="brand brand-highlight push exa">Contact</h1>
+  {% else %}
+    <h2 class="brand brand-highlight push exa">Contact</h2>
+  {% endif %}
+
+  <div class="form-container">
+    {% include forms/contact-form.html %}
+  </div>
+
+</section>
+
+<div class="hr-container island-2">
+  <div class="island-1-2">
+    <hr class="pad-b-1-4">
+  </div>
+</div>
+
+<section class="js-nav-section location gutter-1-2" id="location">
+
+  <h2 class="brand brand-highlight push">Location</h2>
+  <div class="micro p-container push">
+    {% include contact-info.html %}
+  </div>
+  {% include google-maps.html %}
+
+</section>

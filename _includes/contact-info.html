@@ -1,0 +1,30 @@
+<div class="contact-info push-1-2 milli" itemscope itemtype="http://schema.org/Person">
+  <p class="push-0" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    {% if site.contact-info.address.street %}
+      <span itemprop="streetAddress">{{site.contact-info.address.street}}</span>,
+    {% endif %}
+    {% if site.contact-info.address.locality %}
+      <span itemprop="addressLocality">{{site.contact-info.address.locality}}</span>,
+    {% endif %}
+    {% if site.contact-info.address.region %}
+      <span itemprop="addressRegion">{{site.contact-info.address.region}}</span>,
+    {% endif %}
+    {% if site.contact-info.address.country %}
+      <span itemprop="addressCountry">{{site.contact-info.address.country}}</span>
+    {% endif %}
+    {% if site.contact-info.address.postal-code %}
+      <span itemprop="postalCode">{{site.contact-info.address.postal-code}}</span>
+    {% endif %}
+  </p>
+  <ul class="list-group push-0">
+    <li class="">
+      E-mail: <a href="mailto:{{site.contact-info.e-mail}}" itemprop="email">{{site.contact-info.e-mail}}</a>
+    </li>
+    <li class="">
+      Tel: <a href="tel:{{site.contact-info.phone}}" itemprop="telephone">{{site.contact-info.phone}}</a>
+    </li>
+    <li class="">
+      Website: <a href="{{site.contact-info.website-url}}" itemprop="url">{{site.contact-info.website-url}}</a>
+    </li>
+  </ul>
+</div>

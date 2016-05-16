@@ -1,0 +1,26 @@
+- category: "Programming"
+  tools: "PHP, Java2, C++, Fortran, Assembly, ActionScript 3.0, Prolog"
+
+- category: "Web"
+  tools: "HTML5, CSS3, SMACSS, JavaScript, AJAX, jQuery, Liquid, YAML, Markdown, JSON"
+
+- category: "Frameworks"
+  tools: "Zend, Laravel"
+
+- category: "CMS"
+  tools: "Drupal, Wordpress, Jekyll, Magento"
+
+- category: "Database"
+  tools: "MySQL, PostgreSQL, IBM DB2, MS Access"
+
+- category: "Design"
+  tools: "Photoshop, Illustrator, InDesign, Corel Painter IX, Autodesk SketchbookPro"
+
+- category: "3D Modeling"
+  tools: "Blender, Microstation '95"
+
+- category: "OS"
+  tools: "Mac OS X, Ubuntu, Windows"
+
+- category: "Modeling"
+  tools: "UML"
