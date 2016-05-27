@@ -1,5 +1,5 @@
 markdown: kramdown
-baseurl: /jekyll-ookami-c
+baseurl: /jekyll-ookami
 url:
 title: Dimitrios Chantzis
 subtitle: Informatics Engineer and Web Developer based in Brighton, UK
@@ -60,4 +60,4 @@ disqus:
   url: demodchantzis.disqus.com
 instagram-feed: true
 display-social-media-share-buttons: true
-single-page-layout: true
+single-page-layout: false

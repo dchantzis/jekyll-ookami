@@ -18,20 +18,20 @@
   {% endif %}
 {% endfor %}
 
-<div class="pagination pagination-slim push-0">
-  <ul class="list-group--inline  micro push-0">
+<div class="pagination pagination-slim">
+  <ul class="list-group--inline milli push-0">
     <li class="list-group__item">
       {% if prev %}
-        <a href="{{site.baseurl}}{{items[prev].url}}" title="Previous">&lt; prev</a>
+        <a class="brand-color-light" href="{{site.baseurl}}{{items[prev].url}}" title="Previous"><em class="micro">&lt;</em>prev</a>
       {% else %}
-        <span>&lt; prev</span>
+        <span class="brand-color-light"><em class="micro">&lt;</em>prev</span>
       {% endif %}
     </li>
     <li class="list-group__item">
       {% if next %}
-        <a href="{{site.baseurl}}{{items[next].url}}" title="Next">next &gt;</a>
+        <a class="brand-color-light" href="{{site.baseurl}}{{items[next].url}}" title="Next">next<em class="micro">&gt;</em></a>
       {% else %}
-        <span>next &gt;</span>
+        <span class="brand-color-light">next<em class="micro">&gt;</em></span>
       {% endif %}
     </li>
   </ul>

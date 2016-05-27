@@ -17,25 +17,25 @@
   {% endif %}
 {% endfor %}
 
-<div class="pagination pagination-full push-0 pad-t">
-  <ul class="list-group--inline micro push-0">
+<div class="pagination pagination-full">
+  <ul class="list-group--inline milli push-0">
     <li class="list-group__item">
       {% if prev %}
-        <a href="{{site.baseurl}}{{items[prev].url}}" title="Previous">&lt; prev</a>
+        <a class="brand-color-light" href="{{site.baseurl}}{{items[prev].url}}" title="Previous"><em class="micro">&lt;</em>prev</a>
       {% else %}
-        <span>&lt; prev</span>
+        <span class="brand-color-light"><em class="micro">&lt;</em>prev</span>
       {% endif %}
     </li>
     {% for item in items %}
       <li class="list-group__item">
-        <a href="{{site.baseurl}}{{item.url}}" title="{{ item.title | slug | capitalize }}">{{ forloop.index }}</a>
+        <a class="brand-color-light" href="{{site.baseurl}}{{item.url}}" title="{{ item.title | slug | capitalize }}">{{ forloop.index }}</a>
       </li>
     {% endfor %}
     <li class="list-group__item">
       {% if next %}
-        <a href="{{site.baseurl}}{{items[next].url}}" title="Next">next &gt;</a>
+        <a class="brand-color-light" href="{{site.baseurl}}{{items[next].url}}" title="Next"><em class="micro">next</em>&gt;</a>
       {% else %}
-        <span>next &gt;</span>
+        <span class="brand-color-light">next<em class="micro">&gt;</em></span>
       {% endif %}
     </li>
   </ul>

@@ -19,16 +19,12 @@ $(window).load(function() {
     }
   });
 
-  var $win = $(window);
-
   var $navSections = $('.js-nav-section');
 
   var navHighlight = function(e){
     e.waypoint(function(direction){
       $('.nav-main a').removeClass('js-current');
-      console.log(e.attr('id'));
       $('.nav-main a[href="#' + e.attr('id') + '"]').addClass('js-current');
-      console.log($('.nav-main a[href="#' + e.attr('id') + '"]').attr('class'));
     }, { offset: '50%' });
   };
 

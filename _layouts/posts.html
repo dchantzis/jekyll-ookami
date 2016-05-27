@@ -19,10 +19,12 @@ layout: default
   {% assign site-posts = paginator.posts %}
 {% endif %}
 
-<h1 class="brand brand-highlight push zetta">
-News{% if false == default-news-list %}: {{page.posts-filter.value | capitalize}}{% endif %}
-</h1>
-<section class="{{page.sectionClass}}" id="{{page.sectionClass}}">
+
+<section class="{{page.sectionClass}} gutter-1-2" id="{{page.sectionClass}}">
+
+  <h1 class="brand brand-highlight push zetta">
+    News{% if false == default-news-list %}: {{page.posts-filter.value | capitalize}}{% endif %}
+  </h1>
 
 {% for post in site-posts %}
   <article itemscope itemtype="http://schema.org/BlogPosting" class="push-0">

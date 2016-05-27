@@ -1,31 +1,31 @@
 {% if paginator.total_pages > 1 %}
-<div class="pagination pagination-full push-0">
-  <ul class="list-group--inline micro push-0">
+<div class="pagination pagination-full">
+  <ul class="list-group--inline milli push-0">
     <li class="list-group__item">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lt; prev</a>
+      <a class="brand-color-light" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous"><em class="micro"><em class="micro">&lt;</em>prev</a>
     {% else %}
-      <span>&lt; prev</span>
+      <span class="brand-color-light"><em class="micro">&lt;</em>prev</span>
     {% endif %}
     </li>
 
     {% for page in (1..paginator.total_pages) %}
       <li class="list-group__item">
         {% if page == paginator.page %}
-          <em>{{ page }}</em>
+          <em class="brand-color-light" >{{ page }}</em>
         {% elsif page == 1 %}
-          <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+          <a class="brand-color-light" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}" title="{{ page }}">{{ page }}</a>
         {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          <a class="brand-color-light" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" title="{{ page }}">{{ page }}</a>
         {% endif %}
       </li>
     {% endfor %}
 
     <li class="list-group__item">
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">next &gt;</a>
+        <a class="brand-color-light" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Next">next<em class="micro">&gt;</em></a>
       {% else %}
-        <span>next &gt;</span>
+        <span class="brand-color-light">next<em class="micro">&gt;</em></span>
       {% endif %}
     </li>
   </ul>

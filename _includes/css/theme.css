@@ -3,18 +3,25 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
+  position: relative;
 }
 
 body {
   color: rgba(68, 68, 68, 1);
-  /*background-color: #000;*/
-  /*border: 18px solid rgba(255, 255, 255, 0.8);*/
 }
 
 .brand {
-  font-family: 'Volkhov', serif;
-  /*font-family: 'Orbitron', sans-serif;*/
+  font-family: 'Volkhov', sans-serif;
   color: rgba(68, 68, 68, 1);
+}
+
+.brand-o {
+  font-family: 'Orbitron', sans-serif;
+  color: rgba(68, 68, 68, 1);
+}
+
+.brand-color-light {
+  color: rgba(117, 115, 115, 1);
 }
 
 .brand-highlight {
@@ -88,7 +95,6 @@ main {
   height: 12rem;
 }
 
-
 .logo {
   width: 13rem;
   height: 13rem;
@@ -132,7 +138,8 @@ hr {
 .sitemap,
 .news,
 .post,
-.error404 {
+.error404,
+.simple {
   text-align: left;
 }
 
@@ -248,16 +255,36 @@ fieldset .field-error,
 
 .page-content em,
 .p-container em {
-  color: rgba(192, 192, 192, 1);
+  color: rgba(117, 115, 115, 1);
 }
 
 .page-tidbits {
-  color: rgba(192, 192, 192, 1);
+  color: rgba(117, 115, 115, 1);
 }
 
 .social-btn {
   padding-left: 0.1875rem;
   padding-right: 0.1875rem;
+}
+
+.pagination {
+  width: 100%;
+  text-align: center;
+}
+
+.pagination ul li em {
+  font-style: normal;
+}
+
+.pagination ul li a.brand-color-light,
+.pagination ul li a.brand-color-light:link,
+.pagination ul li a.brand-color-light:active{
+  color: rgba(117, 115, 115, 1);
+  text-decoration: none;
+}
+
+.pagination-slim li:first-child::after {
+  content: "/";
 }
 
 tbody tr:nth-child(odd) td,
@@ -312,7 +339,8 @@ tbody tr:nth-child(odd) th {
   .sitemap,
   .news,
   .post,
-  .error404 {
+  .error404,
+  .simple {
     text-align: center;
   }
 

@@ -1,141 +1,263 @@
-- title: "Jekyll Template | Ookami"
-  url: ""
-  code-repository: https://github.com/dchantzis/jekyll-ookami
+- title: "Manji-maru | Responsive Multi-Purpose Jekyll Creative Theme"
+  url: http://dchantzis.github.io/jekyll-manji-maru/
+  code-repository: https://github.com/dchantzis/jekyll-manji-maru
   description: ""
-  technologies: ""
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
   year: "2016"
   status: "demo"
-  weight: 0
+  weight: 1
+  display: 1
   company: personal
   links:
     - title: Demo website
-      href:
+      href: http://dchantzis.github.io/jekyll-manji-maru/
+    - title: Git repository
+      href: https://github.com/dchantzis/jekyll-manji-maru
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/jekyll-manji-maru#readme
+
+- title: "Ookami | Responsive Multi-Purpose Jekyll Creative Theme"
+  url: http://dchantzis.github.io/jekyll-ookami/
+  code-repository: https://github.com/dchantzis/jekyll-ookami
+  description: ""
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "2016"
+  status: "demo"
+  weight: 1
+  display: 1
+  company: personal
+  links:
+    - title: Demo website
+      href: http://dchantzis.github.io/jekyll-ookami/
     - title: Git repository
       href: https://github.com/dchantzis/jekyll-ookami
     - title: README & Screenshots
       href: https://github.com/dchantzis/jekyll-ookami#readme
 
-- title: "Jekyll Template | Manjimaru"
-  url: ""
-  code-repository: https://github.com/dchantzis/jekyll-mmanjimaru
-  description: ""
-  technologies: ""
-  year: "2016"
-  status: "demo"
-  weight: 0
-  company: personal
-  links:
-    - title: Demo website
-      href:
-    - title: Git repository
-      href: https://github.com/dchantzis/jekyll-manjimaru
-    - title: README & Screenshots
-      href: https://github.com/dchantzis/jekyll-manjimaru#readme
-
-- title: "Jekyll Template | Kitsune"
-  url: ""
-  code-repository: https://github.com/dchantzis/jekyll-template-manjimaru
-  description: ""
-  technologies: ""
-  year: "2016"
-  status: "demo"
-  weight: 0
-  company: personal
-  links:
-    - title: Demo website
-      href:
-    - title: Git repository
-      href: https://github.com/dchantzis/jekyll-template-kitsune
-    - title: README & Screenshots
-      href: https://github.com/dchantzis/jekyll-template-kitsune#readme
-
-- title: "Jekyll Template | Oni"
-  url: ""
-  code-repository: https://github.com/dchantzis/jekyll-template-oni
-  description: ""
-  technologies: ""
-  year: "2016"
-  status: "demo"
-  weight: 1
-  company: personal
-  links:
-    - title: Demo website
-      href:
-    - title: Git repository
-      href: https://github.com/dchantzis/jekyll-template-oni
-    - title: README & Screenshots
-      href: https://github.com/dchantzis/jekyll-template-oni#readme
-
-- title: "Jekyll Template | Onna"
-  url: ""
-  code-repository: https://github.com/dchantzis/jekyll-template-onna
-  description: ""
-  technologies: ""
-  year: "2016"
-  status: "demo"
-  weight: 1
-  company: personal
-  links:
-    - title: Demo website
-      href:
-    - title: Git repository
-      href: https://github.com/dchantzis/jekyll-template-onna
-    - title: README & Screenshots
-      href: https://github.com/dchantzis/jekyll-template-onna#readme
-
-- title: "Jekyll Template | Ittan-Momen"
-  url: ""
-  code-repository: https://github.com/dchantzis/jekyll-template-ittan-momen
-  description: ""
-  technologies: ""
-  year: "2016"
-  status: "demo"
-  weight: 1
-  company: personal
-  links:
-    - title: Demo website
-      href:
-    - title: Git repository
-      href: https://github.com/dchantzis/jekyll-template-ittan-momen
-    - title: README & Screenshots
-      href: https://github.com/dchantzis/jekyll-template-ittan-momen#readme
-
-
-- title: "Jekyll Template | Art magazine"
-  url: ""
-  code-repository: https://github.com/dchantzis/jekyll-template-art-magazine
-  description: ""
-  technologies: ""
-  year: "2016"
-  status: "demo"
-  weight: 0
-  company: personal
-  links:
-    - title: Demo website
-      href:
-    - title: Git repository
-      href: https://github.com/dchantzis/jekyll-template-art-magazine
-    - title: README & Screenshots
-      href: https://github.com/dchantzis/jekyll-template-art-magazine#readme
-
-- title: "DChantzis v.1 | Portfolio website"
-  url: http://dchantzis-v1.nfshost.com/
-  code-repository: https://github.com/dchantzis/dchantzis-v1
+- title: "Kitsune | Responsive Multi-Purpose Jekyll Creative Theme"
+  url: "http://dchantzis.github.io/jekyll-kitsune/"
+  code-repository: https://github.com/dchantzis/jekyll-kitsune
   description:
-    - 'I designed this single page website as part of my application for the MSc in Design & Digital Media.'
-    - 'It also helped my work to get noticed and landed me a couple job proposals.'
-  technologies: [ "PHP", "XHTML", "CSS", "AJAX", "Mootools", "Javascript", "Adobe Photoshop"]
-  year: "Early 2009"
+    - "Jekyll theme specifically created for portfolio websites, utilizing Jekyll collections for albums and images."
+    - "Includes a complete Jekyll setup (layouts, collections, config, 404, posts, RSS and atom feed, sitemap, example pages)."
+    - "Mobile and tablet friendly design and development, with 4 breakpoints."
+    - "CSS Grid system, modular and scalable typography with rem units."
+    - "Includes google analytics, themed google maps and google fonts."
+    - "Disqus comments."
+    - "Social media share buttons for posts, albums and images."
+    - "Contact form using formspree.io."
+    - "JSON & AJAX driven predictive search functionality with search results page for albums, pages and posts."
+    - "CSS3 & jQuery responsive image carousel and image lightbox with transitions, controls and navigation buttons"
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "Early 2016"
   status: "demo"
-  weight: 0
+  weight: 2
+  display: 1
   company: personal
   links:
     - title: Demo website
-      href: http://dchantzis-v1.nfshost.com/
+      href: http://dchantzis.github.io/jekyll-kitsune/
     - title: Git repository
-      href: https://github.com/dchantzis/dchantzis-v1
+      href: https://github.com/dchantzis/jekyll-kitsune
     - title: README & Screenshots
-      href: https://github.com/dchantzis/dchantzis-v1#readme
+      href: https://github.com/dchantzis/jekyll-kitsune#readme
+
+- title: "Art Magazine | Responsive Multi-Purpose Jekyll Theme"
+  url: http://dchantzis.github.io/jekyll-art-magazine/
+  code-repository: https://github.com/dchantzis/jekyll-art-magazine
+  description:
+    - "Jekyll theme specifically created for art/photography magazines, utilizing Jekyll collections for authors and tags."
+    - "Includes a complete Jekyll setup (layouts, collections, config, 404, posts, RSS and atom feed, sitemap, example pages)."
+    - "Mobile and tablet friendly design and development, with 4 breakpoints."
+    - "CSS Grid system, modular and scalable typography with rem units."
+    - "Masonry grid system for posts"
+    - "Category and tag filtering of posts."
+    - "Multiple authors and author filtering of posts."
+    - "Includes google analytics, themed google maps and google fonts."
+    - "Disqus comments."
+    - "Social media share buttons for posts."
+    - "Contact form using formspree.io."
+    - "JSON & AJAX driven predictive search functionality with search results page for albums, pages and posts."
+    - "CSS3 & jQuery responsive image carousel and image lightbox with transitions, controls and navigation buttons"
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Masonry", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "Early 2016"
+  status: "demo"
+  weight: 4
+  display: 1
+  company: personal
+  links:
+    - title: Demo website
+      href: http://dchantzis.github.io/jekyll-art-magazine/
+    - title: Git repository
+      href: https://github.com/dchantzis/jekyll-art-magazine
+    - title: README
+      href: https://github.com/dchantzis/jekyll-art-magazine#readme
+
+- title: "Oni | Responsive Multi-Purpose Jekyll Creative Theme"
+  url: "http://dchantzis.github.io/jekyll-oni/"
+  code-repository: https://github.com/dchantzis/jekyll-oni
+  description: ""
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "Early 2016"
+  status: "demo"
+  weight: 5
+  display: 1
+  company: personal
+  links:
+    - title: Demo website
+      href: http://dchantzis.github.io/jekyll-oni/
+    - title: Git repository
+      href: https://github.com/dchantzis/jekyll-oni
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/jekyll-oni#readme
+
+
+- title: "Onna | Responsive Multi-Purpose Jekyll Creative Theme"
+  url: "http://dchantzis.github.io/jekyll-onna"
+  code-repository: "https://github.com/dchantzis/jekyll-onna"
+  description:
+    - "Jekyll theme specifically created for portfolio websites, utilizing Jekyll collections for image albums and videos."
+    - "Includes a complete Jekyll setup (layouts, collections, config, 404, posts, RSS and atom feed, sitemap, example pages)."
+    - "Mobile and tablet friendly design and development, with 4 breakpoints."
+    - "CSS Grid system, modular and scalable typography with rem units."
+    - "Includes google analytics, themed google maps and google fonts."
+    - "Disqus comments."
+    - "Social media share buttons for posts."
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "Early 2016"
+  status: "demo"
+  weight: 6
+  display: 1
+  company: personal
+  links:
+    - title: Demo website
+      href: "http://dchantzis.github.io/jekyll-onna"
+    - title: Git repository
+      href: "https://github.com/dchantzis/jekyll-onna"
+    - title: README & Screenshots
+      href: "https://github.com/dchantzis/jekyll-onna#readme"
+
+- title: "Academic paper | Responsive Multi-Purpose Jekyll Theme"
+  url: "http://dchantzis.github.io/jekyll-academic-paper/"
+  code-repository: "https://github.com/dchantzis/jekyll-academic-paper"
+  description:
+    - "Jekyll theme specifically created for academic papers and books, utilizing a Jekyll collection for chapters."
+    - "Includes a complete Jekyll setup (layouts, collections, config, 404, sitemap, example pages and chapters)."
+    - "Mobile and tablet friendly design and development, with 4 breakpoints."
+    - "CSS Grid system, modular and scalable typography with rem units."
+    - "Includes google analytics, themed google maps and google fonts."
+    - "Hero images option for all pages and chapters."
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "Early 2016"
+  status: "demo"
+  weight: 7
+  display: 1
+  company: personal
+  links:
+    - title: Demo website
+      href: "http://dchantzis.github.io/jekyll-academic-paper/"
+    - title: Git repository
+      href: "https://github.com/dchantzis/jekyll-academic-paper"
+    - title: README & Screenshots
+      href: "https://github.com/dchantzis/jekyll-academic-paper#readme"
+
+- title: "Ittan-Momen | Responsive Multi-Purpose Jekyll Creative Theme"
+  url: ""
+  code-repository: https://github.com/dchantzis/jekyll-ittan-momen
+  description: ""
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "Early 2016"
+  status: "demo"
+  weight: 0
+  display: 0
+  company: personal
+  links:
+    - title: Demo website
+      href:
+    - title: Git repository
+      href: https://github.com/dchantzis/jekyll-ittan-momen
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/jekyll-ittan-momen#readme
+
+- title: "younergy"
+  url: ""
+  code-repository:
+  description: ""
+  technologies: ""
+  year: "2016"
+  status: ""
+  weight: 8
+  display: 1
+  company: freelance
+
+- title: "energieswiss"
+  url: ""
+  code-repository:
+  description: ""
+  technologies: ""
+  year: "2015"
+  status: ""
+  weight: 9
+  display: 1
+  company: freelance
+
+- title: "Janina Mohr"
+  url: http://janinamohr.nfshost.com/
+  code-repository: https://github.com/dchantzis/janina-mohr
+  description:
+    - "Portfolio of fashion designer Janina Mohr."
+    - 'Website created using my <a href="https://github.com/dchantzis/jekyll-onna">template "Onna"</a>.'
+  technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
+  year: "Late 2015"
+  status: "demo"
+  weight: 10
+  display: 1
+  company: freelance
+  links:
+    - title: Website
+      href: http://janinamohr.nfshost.com/
+    - title: Git repository
+      href: https://github.com/dchantzis/janina-mohr
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/janina-mohr#readme
+
+- title: "DChantzis v.3 | Portfolio website"
+  url: http://dchantzis-v3.nfshost.com/
+  code-repository: https://github.com/dchantzis/dchantzis-v3
+  description:
+    - 'This website currently functions for demonstration purposes only.'
+  technologies: [ "HTML5" ,"CSS3" ,"Javascript" ,"jQuery" ,"Jekyll" ,"Liquid" ,"YAML" ,"Markdown" ,"Adobe Photoshop"]
+  year: "Early 2012"
+  status: "demo"
+  weight: 11
+  display: 1
+  company: personal
+  links:
+    - title: Demo website
+      href: http://dchantzis-v3.nfshost.com/
+    - title: Git repository
+      href: https://github.com/dchantzis/dchantzis-v3
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/dchantzis-v3#readme
+
+- title: "Osman Chaudhary"
+  url: http://osmanchaudhary.nfshost.com/
+  code-repository: https://github.com/dchantzis/osman-chaudhary
+  description:
+    - "Portfolio website of fashion designer Osman Chaudhary."
+  technologies: [ "PHP", "XHTML", "CSS", "JavaScript", "AJAX", "Mootools libraries", "JSON", "Adobe Photoshop" ]
+  year: "Late 2011"
+  status: "demo"
+  weight: 12
+  display: 1
+  company: freelance
+  links:
+    - title: Website
+      href: http://osmanchaudhary.nfshost.com/
+    - title: Git repository
+      href: https://github.com/dchantzis/osman-chaudhary
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/osman-chaudhary#readme
 
 - title: "jamesdoe.com V.3 | Portfolio website"
   url: http://jamesdoe-v3.nfshost.com
@@ -147,7 +269,8 @@
   technologies: [ "PHP", "SQL", "XHTML", "CSS", "Javascript", "AJAX", "Mootools", "MySQL", "Adobe Photoshop"]
   year: "Early 2009"
   status: "demo"
-  weight: 0
+  weight: 13
+  display: 1
   company: personal
   links:
     - title: Demo website
@@ -156,6 +279,26 @@
       href: https://github.com/dchantzis/jamesdoe-v3
     - title: README & Screenshots
       href: https://github.com/dchantzis/jamesdoe-v3#readme
+
+- title: "DChantzis v.1 | Portfolio website"
+  url: http://dchantzis-v1.nfshost.com/
+  code-repository: https://github.com/dchantzis/dchantzis-v1
+  description:
+    - 'I designed this single page website as part of my application for the MSc in Design & Digital Media.'
+    - 'It also helped my work to get noticed and landed me a couple job proposals.'
+  technologies: [ "PHP", "XHTML", "CSS", "AJAX", "Mootools", "Javascript", "Adobe Photoshop"]
+  year: "Early 2009"
+  status: "demo"
+  weight: 14
+  display: 1
+  company: personal
+  links:
+    - title: Demo website
+      href: http://dchantzis-v1.nfshost.com/
+    - title: Git repository
+      href: https://github.com/dchantzis/dchantzis-v1
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/dchantzis-v1#readme
 
 - title: "jamesdoe.com V.2 | Portfolio website"
   url: http://jamesdoe-v2.nfshost.com
@@ -166,7 +309,8 @@
   technologies: ["PHP", "XHTML", "CSS", "Javascript", "AJAX", "MySQL", "Javascript", "Adobe Photoshop"]
   year: "Early 2006"
   status: "demo"
-  weight: 0
+  weight: 15
+  display: 1
   company: personal
   links:
     - title: Demo website
@@ -185,15 +329,65 @@
   technologies: ["PHP", "AJAX", "HTML5", "CSS3", "jQuery", "Javascript", "AJAX", "MySQL", "Adobe Photoshop"]
   year: "Early 2005"
   status: "demo"
-  weight: 0
+  weight: 16
+  display: 1
   company: personal
   links:
     - title: Demo website
-      href: http://jamesdoe-v2.nfshost.com
+      href: http://jamesdoe-v1.nfshost.com
     - title: Git repository
-      href: https://github.com/dchantzis/jamesdoe-v2
+      href: https://github.com/dchantzis/jamesdoe-v1
     - title: README & Screenshots
-      href: https://github.com/dchantzis/jamesdoe-v2#readme
+      href: https://github.com/dchantzis/jamesdoe-v1#readme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- title: "RetinaDestruction [Dissertation for BSc in Computer Sciences]"
+  url: http://retinadestruction.nfshost.com
+  code-repository: https://github.com/dchantzis/retinadestruction
+  description:
+    - 'Dissertation project for the MSc in Design and Digital Media (2009-2010) at the University of Edinburgh.'
+    - 'The objective of this dissertation is the design and implementation of a CMS titled <em>Retina-Destruction</em>.'
+    - 'This system is used to generate customizable portfolio websites for visual artists.'
+    - 'This is website is currently <em>inactive</em> and operates strictly for demonstration purposes.'
+  technologies: ["PHP" ,"SQL" ,"MySQL" ,"XHTML" ,"CSS" ,"JavaScript" ,"jQuery" ,"AJAX" ,"JSON" ,"Adobe Photoshop"]
+  year: "Late 2007"
+  status: "academic"
+  weight: 0
+  display: 1
+  company: msc-bsc
+  links:
+    - title: Website
+      href: http://retinadestruction.nfshost.com
+    - title: Dissertation
+      href: http://retinadestruction.nfshost.com/files/[s0972736]DISSERTATION[DIMITRIOS_CHANTZIS][dissertation].pdf
+    - title: Abstract
+      href: http://retinadestruction.nfshost.com/files/[s0972736]ABSTRACT[DIMITRIOS_CHANTZIS][english].pdf
+    - title: Git repository
+      href: https://github.com/dchantzis/retinadestruction
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/retinadestruction#readme
+    - title: Video 1
+      href: http://vimeo.com/15768414
+    - title: Video 2
+      href: http://vimeo.com/15768434
+    - title: Video 3
+      href: http://vimeo.com/15768466
+    - title: Video 4
+      href: http://vimeo.com/15768527
 
 - title: "Index[dot]html"
   url: http://index-dot-html.nfshost.com
@@ -204,6 +398,7 @@
   year: "Early 2010"
   status: "demo"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Website
@@ -212,6 +407,26 @@
       href: https://github.com/dchantzis/index-dot-html
     - title: README & Screenshots
       href: https://github.com/dchantzis/index-dot-html#readme
+
+- title: "What is a cyborg? [Paper]"
+  url: http://what-is-a-cyborg.nfshost.com
+  code-repository: https://github.com/dchantzis/what-is-a-cyborg
+  description:
+    - 'Semester project participating in the "Media and Culture" class for the MSc in Design and Digital Media (2009-2010) at the University of Edinburgh.'
+    - 'Website created using my <a href="https://github.com/dchantzis/jekyll-academic-paper">Jekyll Template "Academic Paper"</a>.'
+  technologies: [ "PHP", "XHTML", "CSS", "JavaScript", "AJAX", "Mootools", "Adobe Photoshop"]
+  year: "Late 2009"
+  status: "demo"
+  weight: 0
+  display: 1
+  company: msc-bsc
+  links:
+    - title: Website
+      href: http://what-is-a-cyborg.nfshost.com
+    - title: Git repository
+      href: https://github.com/dchantzis/what-is-a-cyborg
+    - title: README
+      href: https://github.com/dchantzis/what-is-a-cyborg#readme
 
 - title: "System evaluation & Business plan"
   url:
@@ -222,6 +437,7 @@
   year: "2009"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: System evaluation
@@ -242,6 +458,7 @@
   year: "2009"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Video
@@ -259,6 +476,7 @@
   year: "2009"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Website
@@ -267,15 +485,16 @@
       href: https://github.com/dchantzis/flash-interactive-game
 
 - title: "PaperReview [Dissertation for BSc in Computer Sciences]"
-  url:
+  url: http://paperreview.nfshost.com
   code-repository: https://github.com/dchantzis/paperreview
   description:
     - 'A Web application for the review and administration of the submission process of conference papers.'
     - "This application also demonstrates ways of securing a web application according to the instructions provided by the OWASP (Open Web Application Security Project) community and carefully designed algorithms."
   technologies: [ "PHP", "SQL", "MySQL", "XHTML", "CSS", "JavaScript", "AJAX", "prototype", "UML", "Adobe Photoshop"]
-  year: "Early 2008"
+  year: "Late 2007"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Website
@@ -291,11 +510,12 @@
   url:
   code-repository: https://github.com/dchantzis/evolutionary-algorithms
   description:
-    - 'Semester project participating in the "Intelligent Systems" class for the BSc in Informatics Engineering'
+    - 'Semester project participating in the "Intelligent Systems" class for the BSc in Computer Sciences.'
   technologies: [ "Java" ]
   year: "2005"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Documentation
@@ -309,11 +529,12 @@
   url:
   code-repository: https://github.com/dchantzis/neuro-fuzzy-iris-classification
   description:
-    - 'Semester project participating in the "Intelligent Systems" class for the BSc in Informatics Engineering'
+    - 'Semester project participating in the "Intelligent Systems" class for the BSc in Computer Sciences.'
   technologies: [ "MatLab ANFIS Library" ]
   year: "2005"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Documentation
@@ -327,12 +548,13 @@
   url:
   code-repository: https://github.com/dchantzis/mega-comic-books
   description:
-    - 'Semester project participating in the "Special Issues On DataBases" class for the BSc in Informatics Engineering'
+    - 'Semester project participating in the "Special Issues On DataBases" class for the BSc in Computer Sciences.'
     - 'The design of a comic book store database for the “Mega Comic Books” store and the implementation of a web interface to that database.'
   technologies: [ "SQL", "PostgreSql", "MySQL", "PHP", "HTML", "CSS", "Javascript"]
   year: "2005"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Demo
@@ -356,12 +578,13 @@
   url:
   code-repository:
   description:
-    - 'Semester project participating in the "Computer Graphics" class for the BSc in Informatics Engineering'
+    - 'Semester project participating in the "Computer Graphics" class for the BSc in Computer Sciences.'
     - 'The objective was to create in 3D an architectural construction and produce a brief video tour of the rendered design.'
   technologies: [ "Microstation '95" ]
   year: "2004"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Video 1
@@ -369,19 +592,16 @@
     - title: Video 2
       href: https://vimeo.com/14961305
 
-
-
-
-
 - title: "Cinema customers managing system"
   url:
   code-repository: https://github.com/dchantzis/cinema-project
   description:
-    - 'Semester project participating in the "Programming Methodologies II" class for the BSc in Informatics Engineering'
+    - 'Semester project participating in the "Programming Methodologies II" class for the BSc in Computer Sciences.'
   technologies: [ "Java (Swing)", "SQL", "MS-Access", "UML" ]
   year: "2004"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Documentation
@@ -393,11 +613,12 @@
   url:
   code-repository: https://github.com/dchantzis/online-auctions-managing-system
   description:
-    - 'Semester project participating in the "Programming Methodologies II" class for the BSc in Informatics Engineering'
+    - 'Semester project participating in the "Programming Methodologies II" class for the BSc in Computer Sciences.'
   technologies: [ "UML" ]
   year: "2004"
   status: "academic"
   weight: 0
+  display: 1
   company: msc-bsc
   links:
     - title: Documentation
@@ -405,106 +626,47 @@
     - title: Git repository
       href: https://github.com/dchantzis/online-auctions-managing-system
 
-
-
-
-
-
-
-- title: "younergy"
-  url: ""
-  code-repository:
-  description: ""
-  technologies: ""
-  year: "2016"
-  status: ""
-  weight: 0
-  company: freelance
-
-- title: "energieswiss"
-  url: ""
-  code-repository:
-  description: ""
-  technologies: ""
-  year: "2015"
-  status: ""
-  weight: 0
-  company: freelance
-
-- title: "Janina Mohr"
-  url: ""
-  code-repository:
-  description: ""
-  technologies: ""
-  year: "2012"
-  status: ""
-  weight: 0
-  company: freelance
-
-- title: "Osman Chaudhary"
-  url: ""
-  code-repository:
-  description: ""
-  technologies: ""
-  year: "2011"
-  status: ""
-  weight: 0
-  company: freelance
-
 - title: "Living Spaces"
-  url: "http://www.livingspaces.gr/"
-  code-repository: ""
-  description: "Brochure website for the architectural office Living Spaces based in Athens, Greece."
-  technologies:
-    - PHP
-    - XHTML
-    - MySQL
-    - CSS
-    - JavaScript
-    - AJAX
-    - mootools
-    - JSON
+  url: http://www.livingspaces.gr/
+  code-repository: https://github.com/dchantzis/livingspaces/
+  description:
+    - "Brochure website for the architectural office Living Spaces based in Athens, Greece."
+  technologies: [ "PHP" , "XHTML" , "MySQL" , "CSS" , "JavaScript" , "AJAX" , "mootools" , "JSON" ]
   year: "Early 2011"
   status: "active"
   weight: 0
+  display: 1
   company: tera-media
+  links:
+    - title: Website
+      href: http://www.livingspaces.gr/
+    - title: Git repository
+      href: https://github.com/dchantzis/livingspaces/
+    - title: README & Screenshots
+      href: https://github.com/dchantzis/livingspaces/#readme
 
 - title: "tidbit.tv"
   url: "http://www.tidbit.tv"
   code-repository:
-  description: "An online story telling tool that allows storytellers combine image/video/audio and text to create their own digital story."
-  technologies:
-    - PHP
-    - XHMTL
-    - MySQL
-    - CSS
-    - JavaScript
-    - jQuery
-    - AJAX
-    - JSON
-    - XML
+  description:
+    - "An online story telling tool that allows storytellers combine image/video/audio and text to create their own digital story."
+  technologies: [ "PHP" , "XHMTL" , "MySQL" , "CSS" , "JavaScript" , "jQuery" , "AJAX" , "JSON" , "XML"]
   year: "Late 2010"
   status: "inactive"
   weight: 0
+  display: 1
   company: tera-media
 
 - title: "syzy.gy"
   url: "http://syzy.gy"
   code-repository:
-  description: "An online storytelling tool that allows storytellers combine image/video/audio and text to create their own digital story."
-  technologies:
-    - PHP
-    - XHMTL
-    - MySQL
-    - CSS
-    - JavaScript
-    - jQuery
-    - AJAX
-    - JSON
-    - XML
+  description:
+    - "An online storytelling tool that allows storytellers combine image/video/audio and text to create their own digital story."
+  technologies: ["PHP","XHMTL","MySQL","CSS","JavaScript","jQuery","AJAX","JSON","XML"]
   year: "Late 2009"
   status: "inactive"
   weight: 0
+  display: 1
   company: tera-media
 
 
@@ -516,6 +678,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Babyfoot"
@@ -526,6 +689,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "BHF Flames"
@@ -536,6 +700,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "BHF Active"
@@ -546,6 +711,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Bodycare Deli"
@@ -556,6 +722,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Brightwave"
@@ -566,6 +733,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "CenterParcs"
@@ -576,6 +744,7 @@
   year: ""
   status: "inactive"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Elite"
@@ -586,6 +755,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "ESN"
@@ -596,6 +766,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Family Mosaic"
@@ -606,6 +777,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Grafton"
@@ -616,6 +788,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Graftons Beauty"
@@ -626,6 +799,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "GSM Travel"
@@ -636,6 +810,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Heads On"
@@ -646,6 +821,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Interights"
@@ -656,6 +832,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "London Business School 50th"
@@ -666,6 +843,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "London Business School: Worldwide Alumni Celebration"
@@ -676,6 +854,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Mosaic"
@@ -686,6 +865,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Mosaic Creates"
@@ -696,6 +876,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "National Numeracy Challenge"
@@ -706,6 +887,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "National Numeracy"
@@ -716,6 +898,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Outer Temple"
@@ -726,6 +909,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Passport to Maths"
@@ -736,6 +920,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Peyton and Byrne"
@@ -746,6 +931,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Porky Whites"
@@ -756,6 +942,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Reed & Mackay"
@@ -766,6 +953,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "London Business School Reunion"
@@ -776,6 +964,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Sussex Innovation Center"
@@ -786,6 +975,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Spyways"
@@ -796,6 +986,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Tessello"
@@ -806,6 +997,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "LBS: The Campaign"
@@ -816,6 +1008,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Truprint Photos"
@@ -826,6 +1019,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "12 King's Bench Walk"
@@ -836,6 +1030,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Tysers"
@@ -846,6 +1041,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Winterflood Business Services"
@@ -856,6 +1052,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Winterflood Securities: The Green Book"
@@ -866,6 +1063,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Winterflood Securities"
@@ -876,6 +1074,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Winterflood Investment Trusts"
@@ -886,6 +1085,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "TMA World"
@@ -896,6 +1096,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Virtual Gurus"
@@ -906,6 +1107,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Sussex Partnership NHS Foundation Trust"
@@ -916,6 +1118,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Asset Finance"
@@ -926,6 +1129,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Business Finance"
@@ -936,6 +1140,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Commercial Finance Ireland"
@@ -946,6 +1151,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Commercial Vehicle Hire"
@@ -956,6 +1162,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Invoice Finance"
@@ -966,6 +1173,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Premium Finance"
@@ -976,6 +1184,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Savings"
@@ -986,6 +1195,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "Close Brothers Treasury"
@@ -996,6 +1206,7 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 
 - title: "National Numeracy"
@@ -1006,5 +1217,6 @@
   year: ""
   status: "active"
   weight: 0
+  display: 1
   company: mosaic-digital
 

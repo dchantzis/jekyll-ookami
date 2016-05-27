@@ -29,5 +29,5 @@ technologies: [ "PHP", "SQL", "MySQL", "HTML5", "CSS3", "javaScript", "AJAX", "j
 {% for item in projects-personal %}
   {% assign projects-freelance = projects-freelance | push: item %}
 {% endfor %}
-{% assign projects = projects-freelance | sort:"weight" | reverse%}
+{% assign projects = projects-freelance | sort:"weight" %}
 {% include project-section.html %}
