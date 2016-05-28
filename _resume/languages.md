@@ -5,7 +5,7 @@ titleBefore:
 titleAfter:
 meta: Languages
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
 sectionClass: languages

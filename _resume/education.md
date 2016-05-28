@@ -5,7 +5,7 @@ titleBefore:
 titleAfter:
 meta: Education
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
 sectionClass: education

@@ -5,7 +5,7 @@ titleBefore:
 titleAfter:
 meta: Technical skills
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
 sectionClass: skills

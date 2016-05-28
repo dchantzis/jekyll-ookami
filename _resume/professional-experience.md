@@ -5,7 +5,7 @@ titleBefore:
 titleAfter:
 meta: Experience
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
 sectionClass: professional-experience

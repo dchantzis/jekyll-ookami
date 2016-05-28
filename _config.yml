@@ -1,29 +1,29 @@
 markdown: kramdown
 baseurl: /jekyll-ookami
-url:
-title: Dimitrios Chantzis
-subtitle: Informatics Engineer and Web Developer based in Brighton, UK
+url: http://dchantzis.github.io/jekyll-ookami/
+title: John Smith
+subtitle: Professional Title
 description: Portfolio
-author: Dimitrios Chantzis
-e-mail: info@dimitrioschantzis.com
-phone: +447511719938
+author: John Smith
+e-mail: demo@demoemail.smth
+phone: +440011001100
 exclude: ['README.md', '.gitignore']
 permalink: pretty
 social:
   - provider: linkedin
-    account-id: dchantzis
+    account-id:
   - provider: github
-    account-id: dchantzis
-include-analytics-tracking: true
-google-api-key: AIzaSyDXBadFOiO-Fi3je-knf3Jwbo_xNE1twXc
+    account-id:
+include-analytics-tracking: false
+google-api-key:
 analytics :
   provider : google
   google :
-    tracking_id: 'UA-76614555-1'
+    tracking_id:
 google-maps:
-  latitude: 50.823196
-  longitude: -0.137262
-  zoom: 15
+  latitude: 36.6190943
+  longitude: 24.9065212
+  zoom: 12
 collections:
   projects:
     output: true
@@ -42,18 +42,17 @@ gems: [
 paginate: 5
 paginate_path: "/news/page:num/"
 contact-info:
-  name: Dimitrios Chantzis
-  job-title: Informatics Engineer
-  e-mail: info@dimitrioschantzis.com
-  phone: +44 (0) 7511719938
-  website-url: www.dimitrioschantzis.com
+  name: John Smith
+  job-title: Job Title
+  e-mail: demo@demoemail.smth
+  phone: +44 (0) 0011001100
+  website-url: www.website-url.com
   address:
-      street:
-      locality: Norfolk square
-      region: Brighton
-      country: U.K.
-      postal-code: BN1 2QA
-enableSiteSearch: false
+      street: Street
+      locality: Locality
+      region: Region
+      country: Country
+      postal-code: Post Code
 enablePostsTimeToRead: true
 disqus:
   comments: true

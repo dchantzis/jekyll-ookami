@@ -3,12 +3,8 @@
   <div class="gutter-2">
     <div class="logo-wrapper push">
       <a href="{{site.baseurl}}/">
-        <div class="masthead logo-outline"></div>
-        <div class="masthead logo-outline-text"></div>
-        <div class="logo-border"></div>
-        <div class="masthead logo-heart"></div>
+        <h1 class="masthead logo text-center text-upper ir">{{site.title}}</h1>
       </a>
-      <!--<h1 class="masthead logo text-center text-upper ir">Dimitrios Chantzis</h1>-->
     </div>
 
     {% if '/' == page.url %}
@@ -50,7 +46,7 @@
 
     <div class="nav-overlay" data-state="hidden">
       <div class="nav-wrapper">
-        <h2 class="push-0 brand brand-highlight tera normal">Dimitrios Chantzis</h2>
+        <h2 class="push-0 brand brand-highlight tera normal">{{site.title}}</h2>
         {% include navigation.html navType = "xs-s-m" %}
       </div>
     </div>

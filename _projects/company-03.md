@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Tera Media
+title: Company 03
 titleBefore:
 titleAfter:
-meta: Tera Media
+meta:
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
-sectionClass: projects-tera-media
+sectionClass: projects-company-03
 navigationSection: first
 includeInNavigation: false
 weight: 0
@@ -18,10 +18,10 @@ sitemap:
   changeFreq: monthly
   include: true
 order: 3
-company: tera-media
-company-url: "http://www.tera-media.net/"
-duration: "07/2009 - 10/2010, 02/2011 - 06/2012"
-technologies: [ "PHP", "SQL", "MySQL", "(X)HTML", "CSS", "javaScript", "AJAX", "mooTools", "jQuery", "JSON", "XML", "Drupal 6" ]
+company: company-03
+company-url: "http://www.google.com/"
+duration: "01/1992 - 12/1994"
+technologies: [ "skill 1", "skill 2", "skill 3", "skill 4", "skill 5", "skill 6", "skill 7", "skill 8", "skill 9", "skill 10" ]
 ---
 
 {% assign projects = site.data.projects | where:"company",page.company %}

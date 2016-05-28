@@ -5,7 +5,7 @@ titleBefore:
 titleAfter:
 meta: Interests
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
 sectionClass: interests

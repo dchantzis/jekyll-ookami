@@ -1,14 +1,14 @@
 ---
 layout: default
-title: MSc Design and Digital Media / BSc Computer Sciences
+title: Company 02
 titleBefore:
 titleAfter:
-meta: MSc / BSc
+meta:
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
-sectionClass: projects-msc-bsc
+sectionClass: projects-company-02
 navigationSection: first
 includeInNavigation: false
 weight: 0
@@ -17,11 +17,11 @@ sitemap:
   priority: 0.7
   changeFreq: monthly
   include: true
-order: 5
-company: msc-bsc
-company-url: ""
-duration:
-technologies:
+order: 2
+company: company-02
+company-url: "http://www.google.com/"
+duration: "01/1994 - 12/1995"
+technologies: [ "skill 1", "skill 2", "skill 3", "skill 4", "skill 5", "skill 6", "skill 7", "skill 8", "skill 9", "skill 10" ]
 ---
 
 {% assign projects = site.data.projects | where:"company",page.company %}

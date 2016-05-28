@@ -57,66 +57,14 @@ main {
   z-index: 2;
 }
 
-.logo-outline {
-  position: absolute;
-  border-radius: 50%;
-  background: transparent url("../img/black-heart-outline-bare.png") no-repeat center center;
-  background-size: contain;
-  top: 0;
-  left: 0;
-  z-index: 3;
-}
-
-.logo-outline-text {
-  position: absolute;
-  border-radius: 50%;
-  background: transparent url("../img/black-heart-outline-text.png") no-repeat center center;
-  background-size: contain;
-  top: 0;
-  left: 0;
-  z-index: 3;
-}
-
-.logo-heart {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background: transparent url("../img/black-heart.png") no-repeat center center;
-  background-size: contain;
-  z-index: 1;
-}
-
-.logo-wrapper,
-.logo-border,
-.logo-outline,
-.logo-outline-text,
-.logo-heart {
-  width: 12rem;
-  height: 12rem;
-}
-
 .logo {
   width: 13rem;
   height: 13rem;
-  background: transparent url("../img/logo-white.png") no-repeat center center;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent url("../img/avatar.png") no-repeat center center;
   background-size: contain;
   vertical-align: middle;
-}
-
-.logo-wrapper .logo-outline-text {
-  -ms-animation: heart-rotate 4000ms linear infinite;
-  -o-animation: heart-rotate 4000ms linear infinite;
-  -moz-animation: heart-rotate 4000ms linear infinite;
-  -webkit-animation: heart-rotate 4000ms linear infinite;
-  animation: heart-rotate 4000ms linear infinite;
-}
-
-.logo-wrapper .logo-heart {
-  -ms-animation: heart-pulse 500ms linear infinite alternate;
-  -o-animation: heart-pulse 500ms linear infinite alternate;
-  -moz-animation: heart-pulse 500ms linear infinite alternate;
-  -webkit-animation: heart-pulse 500ms linear infinite alternate;
-  animation: heart-pulse 500ms linear infinite alternate;
 }
 
 hr {
@@ -235,6 +183,7 @@ fieldset .field-error,
   width: auto;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
   padding-top: 0.700rem;
   padding-bottom: 0.700rem;
 }
@@ -381,37 +330,3 @@ tbody tr:nth-child(odd) th {
 
 @media only screen and (min-width: 90em) {
 }
-
-
-/*
-  .parallax {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-  }
-
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .parallax__layer--base {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-
-  .parallax__layer--back {
-    -webkit-transform: translateZ(-9px) scale(12);
-    transform: translateZ(-9px) scale(12);
-    display: block;
-    padding: 35rem;
-    opacity: 0.9;
-    background: transparent url(../img/a.jpg) no-repeat center center;
-  }
-
-*/

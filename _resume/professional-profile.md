@@ -5,7 +5,7 @@ titleBefore:
 titleAfter:
 meta: Professional profile
 summary:
-author: Dimitrios Chantzis
+author:
 image:
 keywords:
 sectionClass: professional-profile

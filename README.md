@@ -6,6 +6,7 @@
 **Built: 2016**
 
 **Demo Website URL:** [dchantzis.github.io/jekyll-ookami/](http://dchantzis.github.io/jekyll-ookami/)
+
 **Git Repo:** [github.com/dchantzis/jekyll-ookami](https://github.com/dchantzis/jekyll-ookami)
 
 This theme includes the following:
@@ -49,42 +50,48 @@ This theme includes the following:
 
 ## Screenshots
 
-**Home page: Light theme**
+**Home page**
 
-![Image 1](http://dchantzis.github.io/jekyll-manji-maru/assets/img/screenshots/screenshot-1.png)
-
----
-
-**Home page: Dark theme**
-
-![Image 2](http://dchantzis.github.io/jekyll-manji-maru/assets/img/screenshots/screenshot-2.png)
+![Image 1](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-1.png)
 
 ---
 
 **Navigation: Tablet version**
 
-![Image 3](http://dchantzis.github.io/jekyll-manji-maru/assets/img/screenshots/screenshot-3.png)
+![Image 2](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-2.png)
 
 ---
 
-**Album page**
+**Home page: Full-screen version**
 
-![Image 4](http://dchantzis.github.io/jekyll-manji-maru/assets/img/screenshots/screenshot-4.png)
-
----
-
-**Album page: Image lightbox**
-
-![Image 4](http://dchantzis.github.io/jekyll-manji-maru/assets/img/screenshots/screenshot-5.png)
+![Image 3](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-3.png)
 
 ---
 
-**Album page: Tablet version**
+**Resume section**
 
-![Image 5](http://dchantzis.github.io/jekyll-manji-maru/assets/img/screenshots/screenshot-6.png)
+![Image 4](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-4.png)
 
 ---
 
-**Contact page**
+**Projects section**
 
-![Image 7](http://dchantzis.github.io/jekyll-manji-maru/assets/img/screenshots/screenshot-7.png)
+![Image 4](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-5.png)
+
+---
+
+**Contact section**
+
+![Image 5](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-6.png)
+
+---
+
+**Location section**
+
+![Image 7](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-7.png)
+
+---
+
+**News section**
+
+![Image 8](http://dchantzis.github.io/jekyll-ookami/assets/img/screenshots/screenshot-8.png)

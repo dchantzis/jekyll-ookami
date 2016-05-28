@@ -1,26 +1,17 @@
-- category: "Programming"
-  tools: "PHP, Java2, C++, Fortran, Assembly, ActionScript 3.0, Prolog"
+- category: "Category"
+  tools: "Skill 1, skill 2, skill 3, skill 4, skill 5, skill 6, skill 7"
 
-- category: "Web"
-  tools: "HTML5, CSS3, SMACSS, JavaScript, AJAX, jQuery, Liquid, YAML, Markdown, JSON"
+- category: "Category"
+  tools: "Skill 1, skill 2, skill 3, skill 4, skill 5"
 
-- category: "Frameworks"
-  tools: "Zend, Laravel"
+- category: "Category"
+  tools: "Skill 1, skill 2, skill 3"
 
-- category: "CMS"
-  tools: "Drupal, Wordpress, Jekyll, Magento"
+- category: "Category"
+  tools: "Skill 1, skill 2, skill 3, skill 4, skill 5, skill 6, skill 7, skill 8"
 
-- category: "Database"
-  tools: "MySQL, PostgreSQL, IBM DB2, MS Access"
+- category: "Category"
+  tools: "Skill 1, skill 2, skill 3, skill 4, skill 5"
 
-- category: "Design"
-  tools: "Photoshop, Illustrator, InDesign, Corel Painter IX, Autodesk SketchbookPro"
-
-- category: "3D Modeling"
-  tools: "Blender, Microstation '95"
-
-- category: "OS"
-  tools: "Mac OS X, Ubuntu, Windows"
-
-- category: "Modeling"
-  tools: "UML"
+- category: "Category"
+  tools: "Skill 1, skill 2"
