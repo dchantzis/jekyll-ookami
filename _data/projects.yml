@@ -1,7 +1,18 @@
 - title: "Manji-maru | Responsive Multi-Purpose Jekyll Creative Theme"
   url: http://dchantzis.github.io/jekyll-manji-maru/
   code-repository: https://github.com/dchantzis/jekyll-manji-maru
-  description: ""
+  description:
+    - "Jekyll theme specifically created for portfolio websites, utilizing Jekyll collections for albums and images."
+    - "Includes a complete Jekyll setup (layouts, collections, config, 404, posts, RSS and atom feed, sitemap, example pages)."
+    - "Mobile and tablet friendly design and development, with 4 breakpoints."
+    - "CSS Grid system, modular and scalable typography with rem units."
+    - "Supporting parent-child relationships for pages and sub-pages or albums."
+    - "Tag filtering of posts."
+    - "Includes google analytics, themed google maps and google fonts."
+    - "Disqus comments."
+    - "Social media share buttons for posts, albums and images."
+    - "Contact form using formspree.io."
+    - "CSS3 & jQuery responsive full-screen image carousel and image lightbox with transitions, controls, navigation buttons and keyboard shortcuts."
   technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
   year: "2016"
   status: "demo"
@@ -19,7 +30,18 @@
 - title: "Ookami | Responsive Multi-Purpose Jekyll Creative Theme"
   url: http://dchantzis.github.io/jekyll-ookami/
   code-repository: https://github.com/dchantzis/jekyll-ookami
-  description: ""
+  description:
+    - "Jekyll theme specifically created for Resume websites / Projects portfolios , utilizing Jekyll collections for resume sections and projects."
+    - "Includes a complete Jekyll setup (layouts, collections, config, 404, posts, RSS and atom feed, sitemap, example pages)."
+    - "Mobile and tablet friendly design and development, with 4 breakpoints."
+    - "CSS Grid system, modular and scalable typography with rem units."
+    - "Options for single-page or full-page-reload layout."
+    - "Resume sections combining YAML data files and jekyll collections."
+    - "Tag filtering of posts."
+    - "Includes google analytics, themed google maps and google fonts."
+    - "Disqus comments."
+    - "Social media share buttons for posts, albums and images."
+    - "Contact form using formspree.io."
   technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
   year: "2016"
   status: "demo"
@@ -47,7 +69,7 @@
     - "Social media share buttons for posts, albums and images."
     - "Contact form using formspree.io."
     - "JSON & AJAX driven predictive search functionality with search results page for albums, pages and posts."
-    - "CSS3 & jQuery responsive image carousel and image lightbox with transitions, controls and navigation buttons"
+    - "CSS3 & jQuery responsive image carousel and image lightbox with transitions, controls, navigation buttons and keyboard shortcuts."
   technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
   year: "Early 2016"
   status: "demo"
@@ -78,7 +100,7 @@
     - "Social media share buttons for posts."
     - "Contact form using formspree.io."
     - "JSON & AJAX driven predictive search functionality with search results page for albums, pages and posts."
-    - "CSS3 & jQuery responsive image carousel and image lightbox with transitions, controls and navigation buttons"
+    - "CSS3 & jQuery responsive image carousel and image lightbox with transitions, controls, navigation buttons and keyboard shortcuts."
   technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Masonry", "Jekyll", "Liquid", "YAML", "Markdown" ]
   year: "Early 2016"
   status: "demo"
@@ -96,7 +118,14 @@
 - title: "Oni | Responsive Multi-Purpose Jekyll Creative Theme"
   url: "http://dchantzis.github.io/jekyll-oni/"
   code-repository: https://github.com/dchantzis/jekyll-oni
-  description: ""
+  description:
+    - "Jekyll theme specifically created for portfolio websites, utilizing Jekyll collections for image albums."
+    - "Includes a complete Jekyll setup (layouts, collections, config, 404, posts, RSS and atom feed, sitemap, example pages)."
+    - "Mobile and tablet friendly design and development, with 4 breakpoints."
+    - "CSS Grid system, modular and scalable typography with rem units."
+    - "Includes google analytics, themed google maps and google fonts."
+    - "Disqus comments."
+    - "Social media share buttons for posts."
   technologies: [ "HTML5", "CSS3", "Javascript", "jQuery", "AJAX", "Jekyll", "Liquid", "YAML", "Markdown" ]
   year: "Early 2016"
   status: "demo"
@@ -180,26 +209,32 @@
       href: https://github.com/dchantzis/jekyll-ittan-momen#readme
 
 - title: "younergy"
-  url: ""
-  code-repository:
+  url: "http://younergy.ch/"
+  code-repository: ""
   description: ""
-  technologies: ""
-  year: "2016"
-  status: ""
+  technologies: [ "Wordpress", "PHP", "HTML5", "CSS3", "JavaScript", "node.js", "jQuery" ]
+  year: "Early 2016"
+  status: "active"
   weight: 8
   display: 1
   company: freelance
+  links:
+    - title: Website
+      href: "http://younergy.ch/"
 
 - title: "energieswiss"
-  url: ""
-  code-repository:
+  url: "http://energieswiss.ch/"
+  code-repository: ""
   description: ""
-  technologies: ""
-  year: "2015"
-  status: ""
+  technologies: [ "Wordpress", "PHP", "HTML5", "CSS3", "JavaScript", "node.js", "jQuery" ]
+  year: "Late 2015"
+  status: "active"
   weight: 9
   display: 1
   company: freelance
+  links:
+    - title: Website
+      href: "http://energieswiss.ch/"
 
 - title: "Janina Mohr"
   url: http://janinamohr.nfshost.com/

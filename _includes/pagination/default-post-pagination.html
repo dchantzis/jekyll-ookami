@@ -3,7 +3,7 @@
   <ul class="list-group--inline milli push-0">
     <li class="list-group__item">
     {% if paginator.previous_page %}
-      <a class="brand-color-light" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous"><em class="micro"><em class="micro">&lt;</em>prev</a>
+      <a class="brand-color-light" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous"><em class="micro">&lt;</em>prev</a>
     {% else %}
       <span class="brand-color-light"><em class="micro">&lt;</em>prev</span>
     {% endif %}

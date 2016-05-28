@@ -4,7 +4,7 @@ title: Forth post
 titleBefore:
 titleAfter:
 meta: Post description
-summary: Post summary
+summary: Cras vel lacus pretium, ultrices arcu sit amet, sodales risus. Mauris mattis tempor velit, id vehicula neque elementum sed. Ut vulputate enim congue, finibus enim et, pulvinar ex.
 author:
 image:
 keywords:
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: true
 tags:
   - tag 3
 related:

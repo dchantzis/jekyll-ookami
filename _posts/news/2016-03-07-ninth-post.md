@@ -4,7 +4,7 @@ title: Ninth post with more characters in title
 titleBefore:
 titleAfter:
 meta: Post description
-summary: Post summary
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris auctor libero vel hendrerit accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 author:
 image:
 keywords: ["dog", "cat", "raccoon", "fox"]
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: true
 tags:
   - tag 5
 related:

@@ -4,7 +4,7 @@ title: Fifth post
 titleBefore:
 titleAfter:
 meta: Post description
-summary: Post summary
+summary: Quisque tincidunt velit eget mi vestibulum dictum. Cras convallis, dolor nec sollicitudin varius, arcu ante luctus risus, vitae fermentum mi est varius justo.
 author:
 image:
 keywords:
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: true
 tags:
   - tag 3
 related:

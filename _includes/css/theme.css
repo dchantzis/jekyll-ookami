@@ -230,9 +230,13 @@ fieldset .field-error,
 }
 
 .page-content img,
-.p-container img {
-  display: block;
-  width: 100%;
+.p-container img,
+.post .graphic img {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.700rem;
+  padding-bottom: 0.700rem;
 }
 
 .page-content ul > li::before,

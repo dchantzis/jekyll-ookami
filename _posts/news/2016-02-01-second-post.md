@@ -4,7 +4,7 @@ title: Second post
 titleBefore:
 titleAfter:
 meta: Post description
-summary: Post summary
+summary: Ut sit amet sem sed eros sagittis facilisis in quis ex. Donec suscipit mi in sapien cursus aliquet.
 author:
 image:
 keywords:
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: true
 tags:
   - tag 2
 related:

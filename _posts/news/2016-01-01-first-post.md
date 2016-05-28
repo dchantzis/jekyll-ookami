@@ -4,7 +4,7 @@ title: First post
 titleBefore:
 titleAfter:
 meta: Post description
-summary:
+summary: Quisque iaculis sapien sagittis luctus rutrum. Cras eu lobortis dui, at venenatis lacus. Nam nunc ligula, luctus maximus tortor quis, tempor semper massa. Praesent sit amet quam neque.
 author:
 image:
 keywords:
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: true
 tags:
   - tag 1
 related:

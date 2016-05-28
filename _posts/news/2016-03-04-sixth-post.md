@@ -4,7 +4,7 @@ title: Sixth post
 titleBefore:
 titleAfter:
 meta: Post description
-summary: Post summary
+summary:  Donec sodales turpis non orci ullamcorper, vel scelerisque mi porta. Proin scelerisque viverra ante. Aenean et urna sem.
 author:
 image:
 keywords:
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: true
 tags:
   - tag 1
 related:

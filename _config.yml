@@ -60,4 +60,4 @@ disqus:
   url: demodchantzis.disqus.com
 instagram-feed: true
 display-social-media-share-buttons: true
-single-page-layout: false
+single-page-layout: true

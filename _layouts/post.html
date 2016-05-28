@@ -8,7 +8,7 @@ layout: default
 
     {% include post-meta-tags.html %}
 
-    <h1 class="page-title brand-highlight push-0 zetta">{{ page.title }}</h1>
+    <h1 class="page-title brand-highlight push-0 zetta">{{ page.title | capitalize}}</h1>
     <p class="page-tidbits milli push-0">
       <time itemprop="datePublished" datetime="{{page.date | date: '%Y-%m-%d' }}"><em>{{ page.date | date: "%B %d, %Y" }}</em></time>
         {% if page.tags.size >= 1 %}
@@ -25,13 +25,6 @@ layout: default
     {% assign post = page %}
     {% include posts-time-to-read.html %}
 
-    {% include carousel.html %}
-
-    {% if page.cover and page.cover.include %}
-      {% assign image = page.cover %}
-      {% include image.html %}
-    {% endif %}
-
     <div class="page-content push-0 milli p-container pad-t">
 
       {% if page.subtitle %}
@@ -42,13 +35,13 @@ layout: default
         <p class="push-0 milli">{{ page.summary }}</p>
       {% endif %}
 
+      {{ content | markdownify }}
+
       {% if page.images.size >= 1 %}
         {% for image in page.images %}
           {% include image.html %}
         {% endfor %}
       {% endif %}
-
-      {{ content | markdownify }}
 
       <div class="social-share-buttons">
         {% include social-share-buttons.html %}

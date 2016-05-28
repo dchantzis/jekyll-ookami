@@ -14,7 +14,7 @@
       {% if false == item.includeInNavigation %}{% continue %}{% endif %}
       <li class="list-group__item island-1-4 mega">
 
-        {% if false == site.single-page-layout or "/" != page.url %}
+        {% if false == site.single-page-layout or "/" != page.url or "posts" == item.layout %}
           {% capture item-url %}{{site.baseurl}}{{item.url}}{% endcapture %}
           {% assign site-layout = ""; %}
         {% else %}
@@ -70,7 +70,7 @@
           {% if item.url contains "page2" %}{% continue %}{% endif %}
           {% if false == item.includeInNavigation %}{% continue %}{% endif %}
           <li class="list-group__item island-1-4 kilo">
-            {% if false == site.single-page-layout or "/" != page.url %}
+            {% if false == site.single-page-layout or "/" != page.url or "posts" == item.layout %}
               {% capture item-url %}{{site.baseurl}}{{item.url}}{% endcapture %}
               {% assign site-layout = ""; %}
             {% else %}

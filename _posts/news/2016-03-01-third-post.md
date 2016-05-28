@@ -4,7 +4,7 @@ title: Third post
 titleBefore:
 titleAfter:
 meta: Post description
-summary: Post summary
+summary: Maecenas nec malesuada massa, eu pulvinar nisl. Integer nec rutrum massa. Sed eu vestibulum nisi, at hendrerit felis.
 author:
 image:
 keywords:
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: true
 tags:
   - tag 1
 related:

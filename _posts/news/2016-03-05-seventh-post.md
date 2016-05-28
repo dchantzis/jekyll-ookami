@@ -4,7 +4,7 @@ title: Seventh post
 titleBefore:
 titleAfter:
 meta: Post description
-summary: Post summary
+summary: Nullam et risus diam. Curabitur ut faucibus sem. Phasellus sed augue quis nisl gravida faucibus.
 author:
 image:
 keywords:
@@ -12,6 +12,7 @@ sectionClass: post
 category: news
 comments: true
 isFamilyFriendly: true
+display-social-media-share-buttons: false
 tags:
   - tag 1
 related:
