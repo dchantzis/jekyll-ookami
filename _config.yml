@@ -15,7 +15,7 @@ social:
   - provider: github
     account-id:
 include-analytics-tracking: false
-google-api-key:
+google-api-key: AIzaSyDRzuGOC7F2MLIzQaJAeYWjKoZq3g3Boo4
 analytics :
   provider : google
   google :
